@@ -4,7 +4,7 @@ function Home() {
     return (
         <div>
             <h1>Sejam Bem Vindos</h1>
-            <h1>Site do <span style="color: red;">Jeff</span> e da <span style="color: blue;">Juh</span></h1>
+            <h1>Site do Jeff e da Juh</h1>
             <h2>Hospedado na vercel - <strong>dica do Filipe Deschamps</strong></h2>
             <Contador />
         </div>
