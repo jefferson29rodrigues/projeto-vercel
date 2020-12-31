@@ -3,10 +3,16 @@ import {useState} from 'react';
 function Home() {
     return (
         <div>
+            
             <h1>Sejam Bem Vindos</h1>
             <h1>Site do Jeff e da Juh</h1>
-            <h2>Hospedado na vercel - <strong>dica do Filipe Deschamps</strong></h2>
+
+            <a href="/ranking">ir para o ranking</a>
+            
             <Contador />
+
+            <h2>Hospedado na vercel - <strong>dica do Filipe Deschamps</strong></h2>
+            
         </div>
     )
 }
