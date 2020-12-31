@@ -1,9 +1,13 @@
+import Link from 'next/link';
+
 function Ranking() {
     return (
         <div>
             <h1>Bem vindo ao Ranking</h1>
 
-            <a href="/">Voltar para a home</a>
+            <Link href="/">
+                <a>Voltar para a home</a>
+            </Link>
 
             <br/><br/>
 
@@ -18,32 +22,32 @@ function Ranking() {
                 <tbody>
                     <tr>
                         <td>Juliana</td>
-                        <td>....................</td>
+                        <td>........................................</td>
                         <td>95 pts</td>
                     </tr>
                     <tr>
                         <td>Jefferson</td>
-                        <td>....................</td>
+                        <td>........................................</td>
                         <td>89 pts</td>
                     </tr>
                     <tr>
                         <td>Leticia</td>
-                        <td>....................</td>
+                        <td>........................................</td>
                         <td>84 pts</td>
                     </tr>
                     <tr>
                         <td>Gabriel</td>
-                        <td>....................</td>
+                        <td>........................................</td>
                         <td>81 pts</td>
                     </tr>
                     <tr>
                         <td>Lívia</td>
-                        <td>....................</td>
+                        <td>........................................</td>
                         <td>79 pts</td>
                     </tr>
                     <tr>
                         <td>Laura</td>
-                        <td>....................</td>
+                        <td>........................................</td>
                         <td>77 pts</td>
                     </tr>
                 </tbody>

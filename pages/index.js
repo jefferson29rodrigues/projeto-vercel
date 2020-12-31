@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import Link from 'next/link';
 
 function Home() {
     return (
@@ -7,8 +8,10 @@ function Home() {
             <h1>Sejam Bem Vindos</h1>
             <h1>Site do Jeff e da Juh</h1>
 
-            <a href="/ranking">ir para o ranking</a>
-            
+            <Link href="/ranking">
+                <a>ir para o ranking</a>
+            </Link>
+
             <Contador />
 
             <h2>Hospedado na vercel - <strong>dica do Filipe Deschamps</strong></h2>
