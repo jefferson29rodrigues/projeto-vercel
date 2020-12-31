@@ -3,6 +3,8 @@ function Ranking() {
         <div>
             <h1>Bem vindo ao Ranking</h1>
 
+            <a href="/">Voltar para a home</a>
+
             <table>
                 <thead>
                     <tr>
