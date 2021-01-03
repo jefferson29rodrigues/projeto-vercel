@@ -43,6 +43,10 @@ function Jokenpo() {
                 <br/><br/>
 
                 <button onClick={vezMaquina}>Jogar</button>
+
+                <Link href="/jokenpo">
+                    <a>Jogar Novamente</a>
+                </Link>
             </div>
         </div>
     )
