@@ -1,7 +1,8 @@
-import {useState} from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 
 function Home() {
+    
     return (
         <div>
             
@@ -12,6 +13,14 @@ function Home() {
                 <a>ir para o ranking</a>
             </Link>
 
+            <br/><br/>
+
+            <Link href="/jokenpo">
+                <a>Jogar Jokenpô</a>
+            </Link>
+
+            <br/><br/>
+            
             <Contador />
 
             <h2>Hospedado na vercel - <strong>dica do Filipe Deschamps</strong></h2>
@@ -30,6 +39,9 @@ function Contador() {
     return (
         <div>
             <div>{contador}</div>
+
+            <br/><br/>
+
             <button onClick={adicionarContador}>mais 1</button>
         </div>
     )
