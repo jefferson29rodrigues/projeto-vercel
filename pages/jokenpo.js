@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 function Jokenpo() {
 
-    const [maquina, setMaquina] = useState('');
+    const [maquina, setMaquina] = useState('Vamos jogar?');
 
     function vezMaquina() {
 
