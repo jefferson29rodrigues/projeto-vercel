@@ -44,9 +44,8 @@ function Jokenpo() {
 
                 <button onClick={vezMaquina}>Jogar</button>
 
-                <Link href="/jokenpo">
-                    <a>Jogar Novamente</a>
-                </Link>
+                <a href="/jokenpo">Jogar Novamente</a>
+                
             </div>
         </div>
     )
