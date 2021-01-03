@@ -43,9 +43,9 @@ function Jokenpo() {
                 <br/><br/>
 
                 <button onClick={vezMaquina}>Jogar</button>
-
+                &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="/jokenpo">Jogar Novamente</a>
-                
+
             </div>
         </div>
     )
