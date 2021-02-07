@@ -1,3 +1,7 @@
+body {
+    background-color: #ccc;
+}
+
 #vezUsuario input {
     width: 300px;
 }
