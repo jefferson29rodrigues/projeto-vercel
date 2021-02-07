@@ -36,9 +36,9 @@ function Jokenpo() {
 
             <div className="jokenpo">
                 
-                <h2>Digite abaixo sua Jogada, depois clique no botão jogar e vai aparecer o que a máquina escolheu</h2>
+                <h2>Digite abaixo sua Jogada, depois clique no botão *jogar* e vai aparecer o que a máquina escolheu</h2>
 
-                <input type="text" name="vezUsuario" id="vezUsuario" placeholder="Digite aqui: Pedra, Papel ou Tesoura e Boa Sorte!" />
+                <input type="text" name="vezUsuario" id="vezUsuario" placeholder="Pedra, Papel ou Tesoura" />
                 
                 <br/><br/>
                 
