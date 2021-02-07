@@ -34,7 +34,7 @@ function Jokenpo() {
             <br/><br/>
 
             <div className="jokenpo">
-                <input type="text" name="vezUsuario" id="vezUsuario"/>
+                <input type="text" name="vezUsuario" id="vezUsuario" placeholder="Digite aqui: Pedra, Papel ou Tesoura e Boa Sorte!" />
                 
                 <br/><br/>
                 
