@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
-import styles from '../public/styles';
+import '../public/styles';
 
 function Jokenpo() {
 
