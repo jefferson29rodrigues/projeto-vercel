@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Link from 'next/link';
-import '../public/styles.css';
 
 function Jokenpo() {
 
@@ -36,7 +35,9 @@ function Jokenpo() {
 
             <div className="jokenpo">
                 
-                <h2>Digite abaixo sua Jogada, depois clique no botão *jogar* e vai aparecer o que a máquina escolheu</h2>
+                <h3>Digite abaixo sua Jogada,</h3> 
+                <h3>depois clique no botão *jogar*</h3> 
+                <h3>e vai aparecer o que a máquina escolheu</h3>
 
                 <input type="text" name="vezUsuario" id="vezUsuario" placeholder="Pedra, Papel ou Tesoura" />
                 
