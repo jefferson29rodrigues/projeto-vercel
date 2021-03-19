@@ -9,6 +9,10 @@ function Home() {
             <h1>Sejam Bem Vindos</h1>
             <h1>Site do Jeff e da Juh</h1>
 
+            <Link href="/evertonvasconcelos">
+                <a>ir para Everton Vasconcelos Corretor de Imóveis</a>
+            </Link>
+
             <Link href="/ranking">
                 <a>ir para o ranking</a>
             </Link>
