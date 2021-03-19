@@ -15,3 +15,5 @@ function EvertonVasconcelos () {
     )
 
 }
+
+export default EvertonVasconcelos;
